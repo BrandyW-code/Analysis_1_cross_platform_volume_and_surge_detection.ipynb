@@ -1,3 +1,7 @@
 # Analysis 1: Cross-Platform Volume and Surge Detection (MEIU22)
 
 This section examines cross-platform election-related activity in the MEIU22 dataset during the 2022 U.S. midterm period. The goal is to understand (1) which platforms contribute the largest share of activity and how volume changes over time (RQ1), and (2) whether the strongest activity surges are synchronized across platforms or staggered (RQ2). This analysis uses a reproducible pandas workflow built from a tidy item-level dataset and daily aggregation. It combines descriptive volume summaries with z-score-based surge detection to identify unusually high-activity days while accounting for differences in baseline platform size.
+
+# Data Assembly 
+
+For this part of the project, I used the assembled MEIU22 tidy index file (meiu22_posts_index_tidy_labeled.csv), which standardizes records across platforms into a pandas-friendly format. In this file, each row represents one item (for example, a post, comment, or tweet identifier), and includes variables such as platform, collection_type, item_id, url, created_at_utc, source_file, and a derived day field used for time-based aggregation. This analysis includes Facebook, Instagram, Reddit, and Twitter in the overall platform totals. However, because the Twitter keyword sample in the tidy file does not contain usable day-level timestamps, the daily time-series and surge analyses in this section are most comparable for Facebook, Instagram, and Reddit.
