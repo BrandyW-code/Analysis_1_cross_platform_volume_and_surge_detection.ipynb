@@ -170,7 +170,7 @@ After calculating z-scores for each platform-day, I identify the top surge day f
 # Interpreting the Results (RQ2)
 The surge analysis shows that the strongest platform surges cluster around Election Day week, but the peaks are not perfectly synchronized. Facebook and Instagram both reach their top z-score surge on 11-08-2022, while Reddit reaches its top z-score surge on 11-09-2022, indicating a short lag rather than a fully simultaneous cross-platform spike.
 
-The top-surge summaries strengthen this interpretation. Several dates appear in the top five surge days across all three comparable platforms, especially 11-07-2022, 11-08-2002, and 11-09-2022. Two additional dates (11-04-2022 and 11-10-2022) appear in the top surge sets on multiple platforms. Together, these results suggest a shared, concentrated attention window around the election period with platform-specific timing differences consistent with a lead/lag pattern. The results in this section are descriptive and do not establish causality. However, they provide a strong foundation for later lead-lag testing and event-aligned comparisons in the project's next steps.
+The top-surge summaries strengthen this interpretation. Several dates appear in the top five surge days across all three comparable platforms, especially 11-07-2022, 11-08-2002, and 11-09-2022. Two additional dates (11-04-2022 and 11-10-2022) appear in the top surge sets on multiple platforms. These results suggest a shared, concentrated attention window around the election period with platform-specific timing differences consistent with a lead/lag pattern. The results in this section are descriptive and do not establish causality. However, they provide a strong foundation for later lead-lag testing and event-aligned comparisons in the project's next steps.
 
 
 
@@ -179,7 +179,7 @@ The top-surge summaries strengthen this interpretation. Several dates appear in 
 <img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dbe0593e-719a-4b1c-8fff-fdc095d109bf" />
 
 # Figures and Tables Used in Analysis 1
-This analysis is supported by two main figures and several summary tables. Figure 1 visualizes daily election-related item volume across comparable platforms (Facebook, Instagram, Reddit), while Figure 2 visualizes the top surge days by platform using z-scores. Together, these figures support both the baseline-volume interpretation (RQ1) and the shared-window/lead-lag-surge interpretation (RQ2).
+This analysis is supported by two main figures and several summary tables. Figure 1 visualizes daily election-related item volume across comparable platforms (Facebook, Instagram, Reddit), while Figure 2 visualizes the top surge days by platform using z-scores. These figures support both the baseline-volume interpretation (RQ1) and the shared-window/lead-lag-surge interpretation (RQ2).
 
 # Conclusion 
 This section establishes the core cross-platform volume and surge patterns in the MEIU22 dataset. The results show that platform activity is uneven in magnitude, that election-week surges cluster in a shared window, and that the strongest platform peaks are not perfectly synchronized (with Reddit peaking one day after Facebook and Instagram in the top z-score results).
